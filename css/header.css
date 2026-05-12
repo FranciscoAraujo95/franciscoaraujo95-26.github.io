@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.menu a {
+  color: #141414;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: block;
+  transition: 0.1s;
+}
+
+.menu a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header.container {
+    padding: 20px;
+  }
+}
