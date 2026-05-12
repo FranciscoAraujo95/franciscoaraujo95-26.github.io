@@ -41,6 +41,7 @@
   position: absolute;
   left: -80px;
   top: 20px;
+  color: #a3a3a3;
 }
 
 .experiencia-curso,
@@ -86,6 +87,13 @@
     text-transform: capitalize;
     word-break: normal;
     color: #141414;
+  }
+  .experiencia-ano {
+    position: initial;
+    grid-row: 3;
+  }
+  .experiencia-ano::before {
+    content: "Ano: ";
   }
 }
 
